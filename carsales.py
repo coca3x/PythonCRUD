@@ -7,10 +7,10 @@ carsales = Flask(__name__)
 
 #DB connection
 def connection():
-    server_name = 'localhost'
+    server_name = '' #Your server name
     database = 'CarSales' 
-    user = 'SA'
-    pass_ = 'Lem0nCode!'
+    user = '' #Your user
+    pass_ = '' #Your pass
     cstr = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server_name+';DATABASE='+database+';UID='+user+';PWD='+ pass_
     conn = pyodbc.connect(cstr)
     return conn
