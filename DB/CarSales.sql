@@ -1,3 +1,4 @@
+--By Eduardo3X
 CREATE DATABASE CarSales
 USE CarSales
 CREATE TABLE [dbo].[TblCars](
