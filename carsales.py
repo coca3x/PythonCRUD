@@ -67,5 +67,15 @@ def updatecar(id):
         conn.close()
         return redirect('/')
 
+#Delete car
+@carsales.route('/deletecar/<int:id>')
+def deletecar(id):
+    conn = connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM dbo.TblCars WHERE id = ?", id)
+    conn.commit()
+    conn.close()
+    return redirect('/')
+
 if(__name__ == "__main__"):
     carsales.run()
