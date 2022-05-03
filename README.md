@@ -8,4 +8,6 @@ The branch "main" contains functional code, the branch "development" contains ex
     3. Create dababase in sql server (Query's in the repo).  
     4. Create the routes...
 
-You got it! :)
+You got it! :)  
+  
+  Follow me: https://www.facebook.com/eduardochx3
